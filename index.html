@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styel.css" />
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!--font awesom-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>E-commerce</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <i  onclick="showSibar()" class="fa-solid fa-bars menu"></i>
+     
+    <nav class="sidebar" >
+        
+      <ul>
+        <li onclick="hideSidebar()"><a href=""> <i class="fa-solid fa-xmark"></i></a></li>
+          <li><a href="./pages/home.html">home</a></li>
+          <li><a href="./pages/sign-up.html">Sign up</a></li>
+          <li> <a href="./index.html"></a>Log in</li>
+    </nav >
+   
+    </ul>
+        <h2>
+            Omnistore
+        </h2>
+        <ul>
+            <li><a  href="./pages/home.html">home</a></li>
+            <li><a  href="./pages/sign-up.html">Sign up</a></li>
+            <li><a href="./index.html">Log in</a></li>
+        </ul>
+        
+       <div class="search">
+         <div class="inputForm">
+             <input type="text" placeholder="What are you looking for?">
+             <i class="fa-solid fa-magnifying-glass"></i>
+         </div>
+         <div class="icons">
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-cart-shopping"></i>
+             <i class="fa-regular fa-user"></i>
+         </div>
+       </div>
+       
+    </header>
+    <!--Main-->
+    <main>
+      <img src="./Image/dl.beatsnoop 1.png" alt="" srcset="">
+      <div class="content">
+        <h2>Log in to Omnistore</h2>
+        <p>Enter your details below</p>
+        <form action="">
+          <input type="text" placeholder="Email or Phone Number">
+          <input type="password" name="" id="" placeholder="Password">
+          <div class="flex">
+           
+            <button class="btn" type="submit">Log In</button>
+            <p>Forget Password?</p>
+
+          </div>
+        </form>
+      </div>
+    </main>
+    <!--Footer-->
+    <footer>
+  <div class="container">
+    <div class="headerFooter">
+      <div class="omnistore">
+            <p class="titel">Omnistore</p>
+            <p>Subscribe</p>
+            <p>Get 10% off your first order</p>
+            <form action="">
+              <input type="text" placeholder="Enter your email">
+             <button type="submit" style="border: none;">
+               <i class="fa-regular fa-paper-plane"></i>
+             </button >
+      </div>
+      <div class="support">
+        <p class="titel">Support</p>
+        <p>111 Bijoy sarani, Dhaka,  DH 1515, Bangladesh.</p>
+        <p>exclusive@gmail.com</p>
+        <p>+88015-88888-9999</p>
+      </div>
+      <div class="account">
+        <p class="titel">Account</p>
+        <p>My Account</p>
+        <p>Login / Register</p>
+        <p>Cart</p>
+        <p>Wishlist</p>
+        <p>Shop</p>
+        
+       
+      
+        </div>
+        <div class="quick-link">
+          <p class="titel">Quick Link</p>
+          <p>Privacy Policy</p>
+          <p>Terms Of Use</p>
+          <p>FAQ</p>
+          <p>Contact</p>
+        </div>
+        <div class="download-app">
+          <p class="titel">Download App</p>
+          <p>Save $3 with App New User Only</p>
+          <div class="flex">
+            <img src="./Image/Qrcode 1.png" alt="" srcset="">
+            <div class="play-app">
+              <img src="./Image/play-stor.png" alt="" srcset="">
+              <img src="./Image/download-appstore.png" alt="" srcset="">
+            </div>
+            
+          </div>
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+      </div>
+          </form>
+    </div>
+    <div class="footerFooter">
+      <p>&copy; Creating by Salma Benyous</p>
+    </div>
+  </div>
+    </footer>
+    
+    <script src="./script.js"></script>
+
+  </body>
+</html>
